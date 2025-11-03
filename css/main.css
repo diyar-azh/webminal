@@ -1,1 +1,44 @@
 
+	/*
+		body
+		{
+			font-family: "Space Mono", monospace;
+			font-weight: 400;
+			font-style: normal;
+		{*/
+	
+		.mainframe
+		{
+			border: 1px solid yellow;
+			position: relative;
+		}
+	
+		#input
+		{/*
+			border: 0px solid transparent;*/
+			position: absolute;
+			top: 0px;
+			z-index: -100;
+			font-family: "Space Mono", monospace;
+			outline: 0px;
+			color: transparent;
+			background-color: transparent;
+		}
+		
+		#output
+		{
+			
+			border: 1px solid blue;
+			position: absolute;
+			top: 0px;
+			z-index: -99
+			font-family: "Space Mono", monospace;/*
+			margin-top: 10px;*/
+		}
+		
+		#pointer
+		{
+			
+			border: 1px solid green;
+			font-family: "Space Mono", monospace;
+    }
